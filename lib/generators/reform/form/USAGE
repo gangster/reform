@@ -1,0 +1,5 @@
+Description:
+  Reform Form generator
+
+Examples:
+    `rails generate reform:form post`
