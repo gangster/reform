@@ -13,8 +13,8 @@ class Forms::<%= class_prefix %>Form < Reform::Form
   properties [<%= names.map {|name| ":#{name}"}.join(", ") %>], on: :<%= model %>
 <%- end -%>
 <% end %>
-<%- if has_model? -%>
-  model :<%= model %>, on: :<%= model %>
-<%- end -%>
+
+  model :<%= name %>, on: :<%= name %>
+
 
 end
